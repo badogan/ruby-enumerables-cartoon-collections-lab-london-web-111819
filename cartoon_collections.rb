@@ -18,4 +18,5 @@ def find_the_cheese# code an argument here
 end
 
 array = ["Basri","Arda","Zeynep"]
-roll_call_dwarves(array)
+#roll_call_dwarves(array)
+p long_planeteer_calls(array)
