@@ -19,9 +19,10 @@ def find_the_cheese(input_snacks_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   input_snacks_array.map do |item|
     if cheese_types.include?(item)
-      put item
+      return item
     end
   end
+  return nil
 end
 
 array = ["Basri","Arda","Zeynep"]
