@@ -9,7 +9,9 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(input_words_array)
-  input_words_array.map{|item|return false unless item.length>4}
+  #input_words_array.map{|item|return false unless item.length>4}
+  #strings.all? { |str| str.size == 5 }
+  input_words_array.any?{|item|item.size >4}
 end
 
 def find_the_cheese# code an argument here
