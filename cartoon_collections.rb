@@ -27,4 +27,4 @@ end
 
 array = ["Basri","Arda","Zeynep"]
 #roll_call_dwarves(array)
-p long_planeteer_calls(array)
+#p long_planeteer_calls(array)
