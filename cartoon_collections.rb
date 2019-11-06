@@ -18,6 +18,7 @@ def find_the_cheese(input_snacks_array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   input_snacks_array.find do |item|
+    
   
   {|item|
   cheese_types.any?{item}}
